@@ -20,7 +20,7 @@ int main(void)
 
 {  
 
-       make("\"programming is like a multilingual puzzle");
+       puts("\"programming is like a multilingual puzzle");
 
        return (0);
 
