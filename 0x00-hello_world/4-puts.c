@@ -1,13 +1,13 @@
 #include <studio.h>
 /**
  *
- * * main - entry point
+ * main - entry point
  *
- * *
+ * 
  *
- * *Return: 0 after printings the function 
+ * Return: 0 after printings the function 
  *
- * */
+ * /
 
 int main(void)
 
