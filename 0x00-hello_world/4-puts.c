@@ -1,14 +1,30 @@
-#include <studio.h>
+#include <stdio.h>
+
+
+
 /**
  *
- * main - entry point
+ * main - Entry point
  *
- * Return: 0 after printings the function 
+ * Print 
+ *
+ * Description: using the main function
+ *
+ *     
+ *
+ * Return: Always 0
+ *
  *
  */
+
+
+
 int main(void)
 
-{puts("\"programming is like building a multilingual puzzle");
-        return (0);
-}
+{
 
+		puts("\"Programming is like building a multilingual puzzle");
+
+			return (0);
+
+}
