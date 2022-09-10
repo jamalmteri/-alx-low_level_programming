@@ -52,31 +52,28 @@ double random_double() {
 			    
 			            unsigned char c[sizeof(uint64_t)];h>
 /**
-* main - print if the number is positive, zero, or negative
-*
-*Description: using the main function
-*this program prints "programming is positive, zero, or negative
-*Return: 0
-*/
+ * main - Check the value of positive or neg int
+ *
+ * Return: 0 on Success
+ */
 int main(void)
 {
-int n;
+	int n;
 
-srand(time(0);
-n = rand() - RAND_MAX / 2;
- /* your code goes there */
-if (n > 0)
-{
-        printf("%i is positive\n", n);
-}
-else if (n ==0)
-{       
-        printf("%i is zero\n", n);
-}
-else if (n < 0)
-{
-        printf("%i is positive\n", n);
-
-}
-return (0);
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	/* your code goes there */
+	if (n < 0)
+	{
+		printf("%d is %s\n", n, "negative");
+	}
+	else if (n > 0)
+	{
+		printf("%d is %s\n", n, "positive");
+	}
+	else
+	{
+		printf("%d is %s\n", n, "zero");
+	}
+	return (0);
 }
