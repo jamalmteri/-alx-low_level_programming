@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * main - prints the string "Alxseprog" from a character array.
- * @i - take each char in array
+* main - prints the string "Alxseprog" from a character array.
+* @i - take each char in array
 * Return: 0 on success.
 */
 int main(void)
