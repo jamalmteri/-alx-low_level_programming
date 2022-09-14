@@ -1,14 +1,19 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include "time.h>
+#include "holberton.h"
 /**
- * main - Entry point point
+ * main - Entry point
  *
- * Return: always success.
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-printf("_putchar\n");
+	char *sh = "Holberton";
 
-return (0);
+	while (*sh)
+	{
+		_putchar(*sh);
+		sh++;
+	}
+	_putchar('\n');
+
+	return (0);
 }
