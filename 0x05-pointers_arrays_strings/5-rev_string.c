@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdio.h>
-
 /**
  * rev_string - Entry point
  * Desc: Entry
