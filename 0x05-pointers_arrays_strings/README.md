@@ -1,0 +1,1 @@
+Today we are learning about Arrays and pointers, something that is very important in the programming language of c, very close in our directories you will see how they work so that they can be translated.
