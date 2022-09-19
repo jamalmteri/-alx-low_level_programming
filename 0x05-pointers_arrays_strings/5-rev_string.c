@@ -1,18 +1,26 @@
 #include "main.h"
 
 /**
- * string_toupper - a function that changes all lower of a string to upper
- * @n: input string
- * Return: capitialized string
+ * rev_string - reverse a string
+ * @s:string
+ * Return:void
  */
-char *string_toupper(char *n)
+void rev_string(char *s)
 {
-	int i;
-
-	for (i = 0; n[i] != '\0'; i++)
+int i, j;
+char a[500];
+i = 0;
+j = 0;
+	while (*(s + i))
 	{
-		if (n[i] >= 'a' && n[i] <= 'z')
-			n[i] = n[i] - 32;
+		*(a + i) = *(s + i);
+		i++;
 	}
-	return (n);
+	i = i - 1;
+	while (i >= 0)
+	{
+		*(s + i) = *(a + j);
+		j++;
+		i--;
+	}
 }
