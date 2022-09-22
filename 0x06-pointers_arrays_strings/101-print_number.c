@@ -6,16 +6,18 @@
  */                                                                                                                                   
 void print_number(int n)                                                                                                              
 {                                                                                                                                     
-        unsigned int num = n;                                                                                                         
+        unsigned int num = x;                                                                                                         
                                                                                                                                       
         if (n < 0)                                                                                                                    
         {                                                                                                                             
                 _putchar('-');                                                                                                        
-                num = -num;                                                                                                           
-        }                                                                                                                             
+                num *= -1;                                                                                                           
+        }                    
+  
+        x = n; 
                                                                                                                                       
-        if ((num / 10) > 0)                                                                                                           
+        if (x /10) > 0)                                                                                                           
                 print_number(num / 10);                                                                                               
                                                                                                                                       
-        _putchar((num % 10) + '0');                                                                                                   
+        _putchar(x % 10) + '0');                                                                                                   
 }
