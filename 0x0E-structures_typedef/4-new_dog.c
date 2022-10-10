@@ -1,6 +1,5 @@
 #include "dog.h"
 
-
 /**
 *_strlen - returns length of
 *a string
@@ -15,7 +14,6 @@ len++;
 
 return (len);
 }
-
 
 /**
 *_strcopy - copy string pointed by src
