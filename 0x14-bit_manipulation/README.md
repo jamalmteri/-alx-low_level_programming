@@ -1,1 +1,1 @@
-Today is manipulation task read notice before answer those quiz task
+manipulation task in c programing language
